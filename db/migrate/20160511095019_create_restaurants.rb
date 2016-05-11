@@ -5,7 +5,7 @@ class CreateRestaurants < ActiveRecord::Migration
       t.string :address
       t.integer :phone_number
       t.string :category
-      t.integer :reviews
+      t.string :reviews
 
       t.timestamps null: false
     end
